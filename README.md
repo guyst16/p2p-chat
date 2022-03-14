@@ -16,7 +16,7 @@ The process:
 2. p2 --> p1 (echo "puching a hole" | nc -u -p 5001 <p1.ip> 5002) puch a hole in firewall
 3. p1 (nc -u -l 5001)
 4. p2 (nc -u -l 5001)
-5. p1 <--> p2 (echo "data" | nc -u -p 5001 <p1/2.ip> 5002)
+5. p1 <--> p2 (echo "data" | nc -u -p 5002 <p1/2.ip> 5001)
 
 ##### Description
 
